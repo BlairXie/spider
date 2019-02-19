@@ -1,2 +1,4 @@
 # spider
 通过爬虫制作GoldenDict在线字典
+
+在Linux平台写了个Python脚本，通过GoldenDict软件将查询词送入脚本，脚本将查询的单词传到欧陆词典在线网站，爬取欧陆在线词典网站的结果，用Beautifulsoup处理获得该单词对应的级别的信息，将其信息显示在GoldenDict软件中。

@@ -4,9 +4,9 @@ import urllib.request
 import sys
 import re
 import bs4
-if len(sys.argv) == 1:  #没有单词就提示用法
-    print("用法:./Dict.py 要查找的单词")
-    sys.exit(0)
+# if len(sys.argv) == 1:  #没有单词就提示用法
+#     print("用法:./Dict.py 要查找的单词")
+#     sys.exit(0)
 
 word = sys.argv[1]
 searchUrl = 'https://dict.eudic.net/dicts/en/'+word
